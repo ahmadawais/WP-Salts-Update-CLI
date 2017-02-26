@@ -52,16 +52,10 @@ echo "-"
 # The PWD.
 THE_PWD=$(pwd)
 
-# Path to WordPress installations.
-SITESTORE=./var/www
-
-# Create array of sites based on folder names and ignore '22222' folders of EasyEngine.
-SITELIST=($(ls -lh $SITESTORE | awk '{print $9}'))
-
 # Start the loop.
 find . -name wp-config.php -print | while read line
 do
-	echo "LINE: $line"
+	# echo "LINE: $line"
 	SITE="$(basename "$(dirname "$line")")"
 
 	# Get dir path where wp-config.php file is present.
@@ -90,3 +84,7 @@ do
 	echo "-"
   cd $THE_PWD
 done
+
+echo "${gb} ${bf}--------------------------------------------------------${r}"
+echo "${gb} ${bf}--------------- ✔︎✔︎✔︎ ALL DONE!  🎉 ✔✔✔ ---------------${r}"
+echo "${gb} ${bf}--------------------------------------------------------${r}"
