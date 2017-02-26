@@ -7,7 +7,7 @@
 Open command line terminal (I prefer iTerm2) and run the following command.
 
 ```bash
-sudo wget -qO ptcli https://git.io/vPmNx && sudo chmod +x ./ptcli && sudo install ./ptcli /usr/local/bin/ptcli
+sudo wget -qO wpsucli https://git.io/vykgu && sudo chmod +x ./wpsucli && sudo install ./wpsucli /usr/local/bin/wpsucli
 ```
 
 This command will perform the following actions:
