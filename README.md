@@ -19,4 +19,9 @@ This command will perform the following actions:
 
 ## 🙌 Usage
 
-Just run 'wpsucli' and it will update the salts for every wp-config.php file on your server or PC.
+Just run `wpsucli` and it will update the salts for every `wp-config.php` file on your server or PC.
+
+## 🎯 Changelog
+
+### Version 1.0.0 2017-02-26
+- First version.
