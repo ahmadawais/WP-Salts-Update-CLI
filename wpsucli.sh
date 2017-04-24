@@ -67,7 +67,7 @@ do
 	echo "${wb} ${bf}--------------- ⏲️  UPDATING SALTS FOR: $SITE... ---------------${r}"
 
 	## Download the new salts to file cal salts.
-	curl "https://api.wordpress.org/secret-key/1.1/salt/" -o salts
+	curl "https://api.wordpress.org/secret-key/1.1/salt/" -sSo salts
 
 	echo "${wb} ${bf}--------------- 🎯  SALTS DOWNLOADED... ---------------${r}"
 
