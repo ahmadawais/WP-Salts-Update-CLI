@@ -19,7 +19,11 @@ This command will perform the following actions:
 
 ## 🙌 Usage
 
-Just run `wpsucli` and it will update the salts for every `wp-config.php` file on your server or PC.
+- Just run `wpsucli` and it will update the salts for every `wp-config.php` file on your server or PC.
+- If you are running it on your server then run it from the root folder i.e. `cd /` and then run `wpsucli`
+
+If for some reason the script doesn't work, you might want to check what is the output of this command 
+`find . -name wp-config.php -print` this command should print the paths for all the wp-config.php files present inside your current directory or directories within it. If it doesn't display the paths, then you're probably at the wrong folder E.g. `cd ~` or `/root` — so just  `cd /` and then run `wpsucli`.
 
 ## 🎯 Changelog
 
