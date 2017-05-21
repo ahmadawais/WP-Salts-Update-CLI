@@ -10,7 +10,9 @@
             A FOSS (Free & Open Source Software) project. Maintained by @AhmadAwais.
         </td>
         <td align="center">
-            <img src="https://i.imgur.com/Asg4d3k.png" width="100" />
+            <a href="https://AhmadAwais.com/">
+                <img src="https://i.imgur.com/Asg4d3k.png" width="100" />
+            </a>
         </td>
     </tr>
 </table>
