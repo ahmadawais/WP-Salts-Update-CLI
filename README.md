@@ -20,7 +20,7 @@
 
 `WPSUCLI` downloads new salts from the WP API and replaces them with the ones in your wp-config.php file for every site on your server.
 
-## ⚡️ Installation
+# ⚡️ Getting Set Up
 
 Open command line terminal (I prefer iTerm2) and run the following command.
 
