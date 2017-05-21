@@ -1,3 +1,4 @@
+# WP-Salts-Update-CLI
 <table width="100%">
     <tr>
         <td align="left" width="100%" colspan="2">
@@ -17,7 +18,6 @@
     </tr>
 </table>
 
-# WP-Salts-Update-CLI
 
 `WPSUCLI` downloads new salts from the WP API and replaces them with the ones in your wp-config.php file for every site on your server.
 
