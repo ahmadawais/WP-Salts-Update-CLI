@@ -1,4 +1,3 @@
-# WP-Salts-Update-CLI
 <table width="100%">
     <tr>
         <td align="left" width="100%" colspan="2">
