@@ -1,3 +1,20 @@
+<table width="100%">
+    <tr>
+        <td align="left" width="100%" colspan="2">
+            <strong>WP-Salts-Update-CLI</strong><br />
+            Updates salts in every wp-config.php file on your server.
+        </td>
+    </tr>
+    <tr>
+        <td>
+            A FOSS (Free & Open Source Software) project. Maintained by @AhmadAwais.
+        </td>
+        <td align="center">
+            <img src="https://i.imgur.com/Asg4d3k.png" width="100" />
+        </td>
+    </tr>
+</table>
+
 # WP-Salts-Update-CLI
 
 `WPSUCLI` downloads new salts from the WP API and replaces them with the ones in your wp-config.php file for every site on your server.
